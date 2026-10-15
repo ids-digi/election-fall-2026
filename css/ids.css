@@ -230,7 +230,7 @@ p.credit {
 */
 header {
     background-size: cover;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: center;
 }
@@ -255,6 +255,7 @@ nav {
     -webkit-transition: 1s;
     /* For Safari 3.1 to 6.0 */
     transition: 1s;
+    background-color: black;
 }
 
 nav li {
@@ -274,6 +275,10 @@ nav ul {
     flex-flow: row wrap;
     -webkit-align-items: center;
     align-items: center;
+}
+
+#slug {
+    display: block;
 }
 
 /* styles for li items makes the spacing/alignment work on the menu */
