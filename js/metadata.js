@@ -1,6 +1,6 @@
 const data = {
-    "url": "your-url-here",
-    "slug": "Story slug",
+    "url": "elections-2026",
+    "slug": "Elections 2026",
     "headline": "This is the headline",
     "title": "Buildout Template",
     "pub_date": "{insert your date in metadata.json}",
