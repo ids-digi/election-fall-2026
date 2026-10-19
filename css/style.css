@@ -218,13 +218,13 @@ article {
 }
 
 .candidate-dem {
-  border: 8px solid #0044C9;
+  border: 3px solid #0044C9;
 }
 
 .candidate-gop {
-  border: 8px solid #d71f27;
+  border: 3px solid #d71f27;
 }
 
 .candidate-ind {
-  border: 8px solid var(--darkgray);
+  border: 3px solid var(--darkgray);
 }
