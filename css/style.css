@@ -157,7 +157,13 @@ article {
 .story-wrapper {
   border: none !important;
   display: flex;
+  max-width: 100%;
+}
+
+@media (min-width: 768px) {
+  .story-wrapper {
   max-width: 30%;
+  }
 }
 
 .coverage {
@@ -224,10 +230,18 @@ article {
 
 .candidates {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
+  align-items: center;
   gap: 2rem;
   justify-content: space-evenly;
-  padding: 2rem;
+  padding: 1rem 0 2rem;
+}
+
+@media (min-width: 768px) {
+  /* TODO: fix this not working?? */
+  .candidates {
+    flex-direction: row;
+  }
 }
 
 .candidate {
