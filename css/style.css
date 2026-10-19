@@ -177,3 +177,54 @@ article {
   margin: 1rem;
   margin-bottom: 2rem;
 }
+
+.race {
+  /* border: 1px solid black; */
+  border-radius: 15px;
+  /* thanks matei */
+  box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.1);
+  /* background-color: var(--gray05); */
+  margin-bottom: 3rem;
+}
+
+.race-name {
+  text-align: left;
+  padding: 1rem;
+  margin: 0;
+  font-size: 22px;
+}
+
+.candidates {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  justify-content: space-evenly;
+  padding: 2rem;
+}
+
+.candidate {
+  /* border: 1px solid black; */
+  padding: 0 1rem;
+  border-radius: 15px;
+  max-width: 256px;
+}
+
+.candidate-name {
+  text-align: center;
+}
+
+.candidate-img > img {
+  border-radius: 90rem;
+}
+
+.candidate-dem {
+  border: 8px solid #0044C9;
+}
+
+.candidate-gop {
+  border: 8px solid #d71f27;
+}
+
+.candidate-ind {
+  border: 8px solid var(--darkgray);
+}
