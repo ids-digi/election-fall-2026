@@ -225,6 +225,10 @@ article {
   border: 3px solid #d71f27;
 }
 
+.candidate-lp {
+  border: 3px solid #FED000;
+}
+
 .candidate-ind {
   border: 3px solid var(--darkgray);
 }
