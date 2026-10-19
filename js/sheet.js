@@ -2,8 +2,8 @@ $(document).ready(function () {
     $("#tmp1").sheetrock({
         url: "https://docs.google.com/spreadsheets/d/1or2mAVHAwpzCLrSwC0xghyx60CBok5qVCkHsfto0quM/edit?gid=0#gid=0",
         callback: (error, options, response) => {
-            const rows = response.rows
-            for (let i = 1; i < rows.length; i++) {
+            let rows = response.rows
+            for (let i = rows.length - 1; i > 0; i--) {
                 const rowData = rows[i].cellsArray
                 let dateParts = rowData[0].split("/")
                 let date = new Date(dateParts[2].padStart(4, "20"), dateParts[0] - 1, dateParts[1])
