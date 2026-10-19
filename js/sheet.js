@@ -6,11 +6,15 @@ $(document).ready(function () {
             for (let i = 1; i < rows.length; i++) {
                 const rowData = rows[i].cellsArray
                 $(rowData[2] == "Indiana" ? ".stories.state" : ".stories.local").append(
-                    `<div class="coverage">
-                        <img src="${rowData[3]}">
-                        <a style="border-bottom: none;" class="story-headline" href="${rowData[5]}">${rowData[1]}</a>
-                        <p class="story-author"><a href="https://idsnews.com/staff/${rowData[4].split(" ").join("-")}">${rowData[4]}</a></p>
-                    </div>`
+                    `<a href="${rowData[5]}" target="_blank" class="story-wrapper">
+                        <div class="coverage">
+                            <img src="${rowData[3]}">
+                            <div class="story-info">
+                                <h4 class="story-headline">${rowData[1]}</h4>
+                                <p class="story-author">${rowData[4]}</p>
+                            </div>
+                        </div>
+                    </a>`
                 );
             }
             $("#tmp1").empty()
