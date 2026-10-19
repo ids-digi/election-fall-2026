@@ -5,13 +5,18 @@ $(document).ready(function () {
             const rows = response.rows
             for (let i = 1; i < rows.length; i++) {
                 const rowData = rows[i].cellsArray
+                let dateParts = rowData[0].split("/")
+                let date = new Date(dateParts[2].padStart(4, "20"), dateParts[0] - 1, dateParts[1])
                 $(rowData[2] == "Indiana" ? ".stories.state" : ".stories.local").append(
                     `<a href="${rowData[5]}" target="_blank" class="story-wrapper">
                         <div class="coverage">
                             <img src="${rowData[3]}">
                             <div class="story-info">
                                 <h4 class="story-headline">${rowData[1]}</h4>
+                                <div class="story-footer">
                                 <p class="story-author">${rowData[4]}</p>
+                                    <p class="story-date">${date.getMonth() + 1}/${date.getDate()}/${date.getFullYear()}</p>
+                                </div>
                             </div>
                         </div>
                     </a>`
