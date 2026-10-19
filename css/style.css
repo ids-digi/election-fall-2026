@@ -187,7 +187,7 @@ article {
 }
 
 .story-author {
-  color: var(--darkgray);
+  color: var(--gray50);
   font-size: 12px;
   font-weight: bold;
   font-family: 'Inter', sans-serif;
