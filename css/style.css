@@ -234,7 +234,7 @@ article {
   /* border: 1px solid black; */
   padding: 0 1rem;
   border-radius: 15px;
-  max-width: 256px;
+  max-width: 192px;
 }
 
 .candidate-name {
