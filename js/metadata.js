@@ -3,38 +3,40 @@ const data = {
     "slug": "Elections 2026",
     "headline": "This is the headline",
     "title": "Buildout Template",
-    "pub_date": "{insert your date in metadata.json}",
+    "pub_date": "October 20, 2026",
     "bylines": {
-        "By": {
-            "name": "Cate Charron",
-            "email": "catchar@iu.edu",
-            "twitter": "catcharron",
-            "pfp": "https://pbs.twimg.com/profile_images/1499562155896619014/CUD2EvuV_400x400.jpg",
-            "bio": "Cate has worked at the IDS since 2019 as a reporter and designer."
-        },
-        "Photos by": {
-            "name": "Izzy Myszak",
-            "email": "izzymyszak@iu.edu",
-            "twitter": "izzymyszak"
-        },
-        "Design and development by": {
-            "name": "Carson TerBush",
-            "email": "cterbush@iu.edu",
-            "twitter": "carsonology",
-            "pfp": "https://pbs.twimg.com/profile_images/1477852735278129152/vk-AiTE6_400x400.jpg",
-            "bio": "Carson has worked at the IDS since 2019 as a reporter and designer."
-        },
-        "Graphics by": {
-            "name": "Vivek Rao",
-            "email": "vivrao@iu.edu",
-            "twitter": "vivrao"
-        }
+        // "By": {
+        //     "name": "IDS Staff",
+        // },
+        // "Photos by": {
+        //     "name": "Izzy Myszak",
+        //     "email": "izzymyszak@iu.edu",
+        //     "twitter": "izzymyszak"
+        // },
+        "Design and development by": [
+            {
+                "name": "Lillie Donato",
+                "email": "mdonato@iu.edu",
+                "pfp": "",
+                "bio": "TODO"
+            }, {
+                "name": "Owen Hamer",
+                "email": "TODO@iu.edu",
+                "pfp": "",
+                "bio": "TODO"
+            }
+        ],
+        // "Graphics by": {
+        //     "name": "Natalie Cartmel",
+        //     "email": "vivrao@iu.edu",
+        //     "twitter": "vivrao"
+        // }
     }
 }
 
 // bylines
 const byline_types = ["By", "Photos by", "Design and development by", "Graphics by"]
-let bylines_html = '';
+let bylines_html = '<p>By IDS Staff</p>';
 let bios_html = '';
 
 for (let type of byline_types) {
@@ -86,6 +88,7 @@ function setAuthorBio(type, author) {
     }
 }
 
+bylines_html += "<p>Illustration by ILLO AUTHOR HERE</p>"
 document.querySelector('#bylines').innerHTML = bylines_html;
 document.querySelector('.author-bios').innerHTML = bios_html;
 
