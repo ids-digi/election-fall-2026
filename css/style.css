@@ -270,6 +270,12 @@ article {
   max-width: 192px;
 }
 
+.candidate img {
+  object-fit: cover;
+  width: 160px;
+  height: 160px;
+}
+
 .candidate-name {
   text-align: center;
 }
