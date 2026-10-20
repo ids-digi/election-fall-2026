@@ -155,13 +155,28 @@ article {
 .stories {
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
+
+  overflow-x: scroll;
+  scroll-snap-type: x mandatory;
+
+  /* Hide scrollbar in Firefox */
+  scrollbar-width: none;
+
+  /* Hide scrollbar in IE and Edge */
+  -ms-overflow-style: none;
+}
+
+/* Hide scrollbar in webkit */
+.list::-webkit-scrollbar {
+  display: none;
 }
 
 .story-wrapper {
   border: none !important;
   display: flex;
   max-width: 100%;
+  flex-shrink: 0;
+  scroll-snap-align: start;
 }
 
 @media (min-width: 768px) {
@@ -175,7 +190,7 @@ article {
   flex-direction: column;
   border-radius: 15px;
   box-shadow: 0px 5px 10px 5px rgba(0, 0, 0, 0.1);
-  margin: 0.5rem;
+  margin: 1rem;
   overflow: hidden;
   transition: box-shadow 0.3s ease-in-out;
 }
