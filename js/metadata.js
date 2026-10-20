@@ -1,8 +1,8 @@
 const data = {
     "url": "elections-2026",
     "slug": "Elections 2026",
-    "headline": "This is the headline",
-    "title": "Buildout Template",
+    "headline": "2026 Midterm Elections Guide",
+    "title": "Elections 2026",
     "pub_date": "October 20, 2026",
     "bylines": {
         // "By": {
