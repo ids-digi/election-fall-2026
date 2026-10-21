@@ -88,7 +88,7 @@ function setAuthorBio(type, author) {
     }
 }
 
-bylines_html += "<p>Illustration by ILLO AUTHOR HERE</p>"
+bylines_html += "<p>Illustration by <a href=\"https://www.idsnews.com/staff/illustration-by-evelyn-strauss\">Evelyn Strauss</a></p>"
 document.querySelector('#bylines').innerHTML = bylines_html;
 document.querySelector('.author-bios').innerHTML = bios_html;
 
