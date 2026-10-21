@@ -365,7 +365,7 @@ section p:first-child {
 
 .bylines {
     padding-top: 6.5px;
-    max-width: var(--large);
+    max-width: var(--medium);
     margin-left: auto;
     margin-right: auto;
     padding-left: var(--sm);
@@ -389,7 +389,7 @@ section p:first-child {
 }
 
 .story {
-    max-width: var(--large);
+    max-width: var(--medium);
     padding-left: var(--sm);
     padding-right: var(--sm);
     margin-left: auto;
@@ -688,7 +688,7 @@ nav li a:active {
     margin-bottom: var(--md);
     padding-bottom: var(--sm);
     border-radius: 4px;
-    max-width: var(--large);
+    max-width: var(--medium);
     margin-left: auto;
     margin-right: auto;
 }
