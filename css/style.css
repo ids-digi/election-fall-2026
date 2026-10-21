@@ -152,6 +152,23 @@ article {
   padding-top: 4rem;
 }
 
+.methodology-header {
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 1;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+.methodology-header img {
+  margin-left: auto;
+  max-width: 128px;
+}
+
+.live-container {
+  display: none;
+}
+
 .stories {
   display: flex;
   flex-direction: row;
