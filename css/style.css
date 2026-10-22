@@ -57,7 +57,7 @@ h2 {
 
 h3 {
   /* section header */
-
+  text-align: center !important;
 }
 
 .dropcap:first-letter {
