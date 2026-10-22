@@ -365,7 +365,7 @@ section p:first-child {
 
 .bylines {
     padding-top: 6.5px;
-    max-width: var(--medium);
+    max-width: var(--large);
     margin-left: auto;
     margin-right: auto;
     padding-left: var(--sm);
@@ -389,7 +389,7 @@ section p:first-child {
 }
 
 .story {
-    max-width: var(--medium);
+    max-width: var(--large);
     padding-left: var(--sm);
     padding-right: var(--sm);
     margin-left: auto;
