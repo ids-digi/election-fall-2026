@@ -3,7 +3,7 @@ const data = {
     "slug": "Elections 2026",
     "headline": "2026 Midterm Elections Guide",
     "title": "Elections 2026",
-    "pub_date": "October 20, 2026",
+    "pub_date": "October 22, 2026",
     "bylines": {
         "Design and development by": [
             {
