@@ -11,7 +11,7 @@ const data = {
                 "email": "mdonato@iu.edu"
             }, {
                 "name": "Owen Hamer",
-                "email": "TODO@iu.edu"
+                "email": "ohamer@iu.edu"
             }
         ],
     }
