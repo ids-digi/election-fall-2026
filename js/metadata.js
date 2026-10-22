@@ -5,32 +5,15 @@ const data = {
     "title": "Elections 2026",
     "pub_date": "October 20, 2026",
     "bylines": {
-        // "By": {
-        //     "name": "IDS Staff",
-        // },
-        // "Photos by": {
-        //     "name": "Izzy Myszak",
-        //     "email": "izzymyszak@iu.edu",
-        //     "twitter": "izzymyszak"
-        // },
         "Design and development by": [
             {
                 "name": "Lillie Donato",
-                "email": "mdonato@iu.edu",
-                "pfp": "",
-                "bio": "TODO"
+                "email": "mdonato@iu.edu"
             }, {
                 "name": "Owen Hamer",
-                "email": "TODO@iu.edu",
-                "pfp": "",
-                "bio": "TODO"
+                "email": "TODO@iu.edu"
             }
         ],
-        // "Graphics by": {
-        //     "name": "Natalie Cartmel",
-        //     "email": "vivrao@iu.edu",
-        //     "twitter": "vivrao"
-        // }
     }
 }
 
