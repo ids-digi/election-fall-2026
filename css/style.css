@@ -208,7 +208,7 @@ article {
 .story-wrapper {
   border: none !important;
   display: flex;
-  max-width: 100%;
+  max-width: 90%;
   flex-shrink: 0;
   scroll-snap-align: start;
 }
